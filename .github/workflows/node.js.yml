@@ -30,7 +30,7 @@ jobs:
           npm install
           npm test
         env:
-          PORT: 87
+          PORT: 89
           db_port: 5432
           
         
