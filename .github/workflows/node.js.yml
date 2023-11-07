@@ -30,7 +30,7 @@ jobs:
           npm install
           npm test
         env:
-          db_port: ${{ secrets.db_port }}  
+          DB_port: ${{ secrets.DB_port }}  
           JWT_SECRET_KEY: ${{ secrets.JWT_SECRET_KEY }}  
           JWT_EXPIRES: ${{ secrets.JWT_EXPIRES }}
           PORT: ${{ secrets.PORT }}
