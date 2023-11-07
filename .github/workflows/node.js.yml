@@ -31,6 +31,7 @@ jobs:
           npm test
         env:
           PORT: ${{ secrets.PORT}}
+          db_port: ${{ secrets.db_port}} 
           
         
           
