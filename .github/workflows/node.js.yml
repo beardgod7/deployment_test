@@ -30,8 +30,8 @@ jobs:
           npm install
           npm test
         env:
-          PORT: ${{ secrets.PORT}}
-          db_port: ${{ secrets.db_port}} 
+          PORT: 87
+          db_port: 5432
           
         
           
