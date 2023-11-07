@@ -31,8 +31,6 @@ jobs:
           npm test
         env:
           PORT: 9100
-          db_port: 5432
-          db_password: francis
           
         
           
