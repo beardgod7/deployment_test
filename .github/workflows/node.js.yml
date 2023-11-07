@@ -29,5 +29,9 @@ jobs:
         run: |
           npm install
           npm test
+          env:
+          db_port: ${{ secrets.db_port}}  
+         
+          
         
 
